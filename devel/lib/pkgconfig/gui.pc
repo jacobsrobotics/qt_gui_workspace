@@ -1,0 +1,8 @@
+prefix=/home/pmessan/qt-gui/devel
+
+Name: gui
+Description: Description of gui
+Version: 0.1.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
