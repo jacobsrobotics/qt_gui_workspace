@@ -57,9 +57,42 @@ include gui/CMakeFiles/gui.dir/progress.make
 # Include the compile flags for this target's objects.
 include gui/CMakeFiles/gui.dir/flags.make
 
+gui/qrc_qml.cpp: /home/pmessan/qt-gui/src/gui/resources/window1.qml
+gui/qrc_qml.cpp: /home/pmessan/qt-gui/src/gui/resources/qml.qrc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/pmessan/qt-gui/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating qrc_qml.cpp"
+	cd /home/pmessan/qt-gui/build/gui && /usr/lib/qt5/bin/rcc --name qml --output /home/pmessan/qt-gui/build/gui/qrc_qml.cpp /home/pmessan/qt-gui/src/gui/resources/qml.qrc
+
+gui/include/gui/moc_mainapplication.cpp: /home/pmessan/qt-gui/src/gui/include/gui/mainapplication.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/pmessan/qt-gui/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating include/gui/moc_mainapplication.cpp"
+	cd /home/pmessan/qt-gui/build/gui/include/gui && /usr/lib/qt5/bin/moc @/home/pmessan/qt-gui/build/gui/include/gui/moc_mainapplication.cpp_parameters
+
+gui/CMakeFiles/gui.dir/src/guiMain.cpp.o: gui/CMakeFiles/gui.dir/flags.make
+gui/CMakeFiles/gui.dir/src/guiMain.cpp.o: /home/pmessan/qt-gui/src/gui/src/guiMain.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pmessan/qt-gui/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object gui/CMakeFiles/gui.dir/src/guiMain.cpp.o"
+	cd /home/pmessan/qt-gui/build/gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gui.dir/src/guiMain.cpp.o -c /home/pmessan/qt-gui/src/gui/src/guiMain.cpp
+
+gui/CMakeFiles/gui.dir/src/guiMain.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gui.dir/src/guiMain.cpp.i"
+	cd /home/pmessan/qt-gui/build/gui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pmessan/qt-gui/src/gui/src/guiMain.cpp > CMakeFiles/gui.dir/src/guiMain.cpp.i
+
+gui/CMakeFiles/gui.dir/src/guiMain.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gui.dir/src/guiMain.cpp.s"
+	cd /home/pmessan/qt-gui/build/gui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pmessan/qt-gui/src/gui/src/guiMain.cpp -o CMakeFiles/gui.dir/src/guiMain.cpp.s
+
+gui/CMakeFiles/gui.dir/src/guiMain.cpp.o.requires:
+
+.PHONY : gui/CMakeFiles/gui.dir/src/guiMain.cpp.o.requires
+
+gui/CMakeFiles/gui.dir/src/guiMain.cpp.o.provides: gui/CMakeFiles/gui.dir/src/guiMain.cpp.o.requires
+	$(MAKE) -f gui/CMakeFiles/gui.dir/build.make gui/CMakeFiles/gui.dir/src/guiMain.cpp.o.provides.build
+.PHONY : gui/CMakeFiles/gui.dir/src/guiMain.cpp.o.provides
+
+gui/CMakeFiles/gui.dir/src/guiMain.cpp.o.provides.build: gui/CMakeFiles/gui.dir/src/guiMain.cpp.o
+
+
 gui/CMakeFiles/gui.dir/src/mainapplication.cpp.o: gui/CMakeFiles/gui.dir/flags.make
 gui/CMakeFiles/gui.dir/src/mainapplication.cpp.o: /home/pmessan/qt-gui/src/gui/src/mainapplication.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pmessan/qt-gui/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object gui/CMakeFiles/gui.dir/src/mainapplication.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pmessan/qt-gui/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object gui/CMakeFiles/gui.dir/src/mainapplication.cpp.o"
 	cd /home/pmessan/qt-gui/build/gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gui.dir/src/mainapplication.cpp.o -c /home/pmessan/qt-gui/src/gui/src/mainapplication.cpp
 
 gui/CMakeFiles/gui.dir/src/mainapplication.cpp.i: cmake_force
@@ -81,9 +114,57 @@ gui/CMakeFiles/gui.dir/src/mainapplication.cpp.o.provides: gui/CMakeFiles/gui.di
 gui/CMakeFiles/gui.dir/src/mainapplication.cpp.o.provides.build: gui/CMakeFiles/gui.dir/src/mainapplication.cpp.o
 
 
+gui/CMakeFiles/gui.dir/qrc_qml.cpp.o: gui/CMakeFiles/gui.dir/flags.make
+gui/CMakeFiles/gui.dir/qrc_qml.cpp.o: gui/qrc_qml.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pmessan/qt-gui/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object gui/CMakeFiles/gui.dir/qrc_qml.cpp.o"
+	cd /home/pmessan/qt-gui/build/gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gui.dir/qrc_qml.cpp.o -c /home/pmessan/qt-gui/build/gui/qrc_qml.cpp
+
+gui/CMakeFiles/gui.dir/qrc_qml.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gui.dir/qrc_qml.cpp.i"
+	cd /home/pmessan/qt-gui/build/gui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pmessan/qt-gui/build/gui/qrc_qml.cpp > CMakeFiles/gui.dir/qrc_qml.cpp.i
+
+gui/CMakeFiles/gui.dir/qrc_qml.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gui.dir/qrc_qml.cpp.s"
+	cd /home/pmessan/qt-gui/build/gui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pmessan/qt-gui/build/gui/qrc_qml.cpp -o CMakeFiles/gui.dir/qrc_qml.cpp.s
+
+gui/CMakeFiles/gui.dir/qrc_qml.cpp.o.requires:
+
+.PHONY : gui/CMakeFiles/gui.dir/qrc_qml.cpp.o.requires
+
+gui/CMakeFiles/gui.dir/qrc_qml.cpp.o.provides: gui/CMakeFiles/gui.dir/qrc_qml.cpp.o.requires
+	$(MAKE) -f gui/CMakeFiles/gui.dir/build.make gui/CMakeFiles/gui.dir/qrc_qml.cpp.o.provides.build
+.PHONY : gui/CMakeFiles/gui.dir/qrc_qml.cpp.o.provides
+
+gui/CMakeFiles/gui.dir/qrc_qml.cpp.o.provides.build: gui/CMakeFiles/gui.dir/qrc_qml.cpp.o
+
+
+gui/CMakeFiles/gui.dir/include/gui/moc_mainapplication.cpp.o: gui/CMakeFiles/gui.dir/flags.make
+gui/CMakeFiles/gui.dir/include/gui/moc_mainapplication.cpp.o: gui/include/gui/moc_mainapplication.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pmessan/qt-gui/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object gui/CMakeFiles/gui.dir/include/gui/moc_mainapplication.cpp.o"
+	cd /home/pmessan/qt-gui/build/gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gui.dir/include/gui/moc_mainapplication.cpp.o -c /home/pmessan/qt-gui/build/gui/include/gui/moc_mainapplication.cpp
+
+gui/CMakeFiles/gui.dir/include/gui/moc_mainapplication.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gui.dir/include/gui/moc_mainapplication.cpp.i"
+	cd /home/pmessan/qt-gui/build/gui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pmessan/qt-gui/build/gui/include/gui/moc_mainapplication.cpp > CMakeFiles/gui.dir/include/gui/moc_mainapplication.cpp.i
+
+gui/CMakeFiles/gui.dir/include/gui/moc_mainapplication.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gui.dir/include/gui/moc_mainapplication.cpp.s"
+	cd /home/pmessan/qt-gui/build/gui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pmessan/qt-gui/build/gui/include/gui/moc_mainapplication.cpp -o CMakeFiles/gui.dir/include/gui/moc_mainapplication.cpp.s
+
+gui/CMakeFiles/gui.dir/include/gui/moc_mainapplication.cpp.o.requires:
+
+.PHONY : gui/CMakeFiles/gui.dir/include/gui/moc_mainapplication.cpp.o.requires
+
+gui/CMakeFiles/gui.dir/include/gui/moc_mainapplication.cpp.o.provides: gui/CMakeFiles/gui.dir/include/gui/moc_mainapplication.cpp.o.requires
+	$(MAKE) -f gui/CMakeFiles/gui.dir/build.make gui/CMakeFiles/gui.dir/include/gui/moc_mainapplication.cpp.o.provides.build
+.PHONY : gui/CMakeFiles/gui.dir/include/gui/moc_mainapplication.cpp.o.provides
+
+gui/CMakeFiles/gui.dir/include/gui/moc_mainapplication.cpp.o.provides.build: gui/CMakeFiles/gui.dir/include/gui/moc_mainapplication.cpp.o
+
+
 gui/CMakeFiles/gui.dir/gui_autogen/mocs_compilation.cpp.o: gui/CMakeFiles/gui.dir/flags.make
 gui/CMakeFiles/gui.dir/gui_autogen/mocs_compilation.cpp.o: gui/gui_autogen/mocs_compilation.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pmessan/qt-gui/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object gui/CMakeFiles/gui.dir/gui_autogen/mocs_compilation.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pmessan/qt-gui/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object gui/CMakeFiles/gui.dir/gui_autogen/mocs_compilation.cpp.o"
 	cd /home/pmessan/qt-gui/build/gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gui.dir/gui_autogen/mocs_compilation.cpp.o -c /home/pmessan/qt-gui/build/gui/gui_autogen/mocs_compilation.cpp
 
 gui/CMakeFiles/gui.dir/gui_autogen/mocs_compilation.cpp.i: cmake_force
@@ -107,16 +188,21 @@ gui/CMakeFiles/gui.dir/gui_autogen/mocs_compilation.cpp.o.provides.build: gui/CM
 
 # Object files for target gui
 gui_OBJECTS = \
+"CMakeFiles/gui.dir/src/guiMain.cpp.o" \
 "CMakeFiles/gui.dir/src/mainapplication.cpp.o" \
+"CMakeFiles/gui.dir/qrc_qml.cpp.o" \
+"CMakeFiles/gui.dir/include/gui/moc_mainapplication.cpp.o" \
 "CMakeFiles/gui.dir/gui_autogen/mocs_compilation.cpp.o"
 
 # External object files for target gui
 gui_EXTERNAL_OBJECTS =
 
+/home/pmessan/qt-gui/devel/lib/gui/gui: gui/CMakeFiles/gui.dir/src/guiMain.cpp.o
 /home/pmessan/qt-gui/devel/lib/gui/gui: gui/CMakeFiles/gui.dir/src/mainapplication.cpp.o
+/home/pmessan/qt-gui/devel/lib/gui/gui: gui/CMakeFiles/gui.dir/qrc_qml.cpp.o
+/home/pmessan/qt-gui/devel/lib/gui/gui: gui/CMakeFiles/gui.dir/include/gui/moc_mainapplication.cpp.o
 /home/pmessan/qt-gui/devel/lib/gui/gui: gui/CMakeFiles/gui.dir/gui_autogen/mocs_compilation.cpp.o
 /home/pmessan/qt-gui/devel/lib/gui/gui: gui/CMakeFiles/gui.dir/build.make
-/home/pmessan/qt-gui/devel/lib/gui/gui: /usr/lib/x86_64-linux-gnu/libQt5Qml.so.5.9.5
 /home/pmessan/qt-gui/devel/lib/gui/gui: /opt/ros/melodic/lib/libimage_transport.so
 /home/pmessan/qt-gui/devel/lib/gui/gui: /opt/ros/melodic/lib/libmessage_filters.so
 /home/pmessan/qt-gui/devel/lib/gui/gui: /opt/ros/melodic/lib/libclass_loader.so
@@ -145,10 +231,13 @@ gui_EXTERNAL_OBJECTS =
 /home/pmessan/qt-gui/devel/lib/gui/gui: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
 /home/pmessan/qt-gui/devel/lib/gui/gui: /usr/lib/x86_64-linux-gnu/libpthread.so
 /home/pmessan/qt-gui/devel/lib/gui/gui: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
+/home/pmessan/qt-gui/devel/lib/gui/gui: /usr/lib/x86_64-linux-gnu/libQt5Quick.so.5.9.5
+/home/pmessan/qt-gui/devel/lib/gui/gui: /usr/lib/x86_64-linux-gnu/libQt5Qml.so.5.9.5
 /home/pmessan/qt-gui/devel/lib/gui/gui: /usr/lib/x86_64-linux-gnu/libQt5Network.so.5.9.5
+/home/pmessan/qt-gui/devel/lib/gui/gui: /usr/lib/x86_64-linux-gnu/libQt5Gui.so.5.9.5
 /home/pmessan/qt-gui/devel/lib/gui/gui: /usr/lib/x86_64-linux-gnu/libQt5Core.so.5.9.5
 /home/pmessan/qt-gui/devel/lib/gui/gui: gui/CMakeFiles/gui.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/pmessan/qt-gui/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable /home/pmessan/qt-gui/devel/lib/gui/gui"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/pmessan/qt-gui/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable /home/pmessan/qt-gui/devel/lib/gui/gui"
 	cd /home/pmessan/qt-gui/build/gui && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/gui.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -156,7 +245,10 @@ gui/CMakeFiles/gui.dir/build: /home/pmessan/qt-gui/devel/lib/gui/gui
 
 .PHONY : gui/CMakeFiles/gui.dir/build
 
+gui/CMakeFiles/gui.dir/requires: gui/CMakeFiles/gui.dir/src/guiMain.cpp.o.requires
 gui/CMakeFiles/gui.dir/requires: gui/CMakeFiles/gui.dir/src/mainapplication.cpp.o.requires
+gui/CMakeFiles/gui.dir/requires: gui/CMakeFiles/gui.dir/qrc_qml.cpp.o.requires
+gui/CMakeFiles/gui.dir/requires: gui/CMakeFiles/gui.dir/include/gui/moc_mainapplication.cpp.o.requires
 gui/CMakeFiles/gui.dir/requires: gui/CMakeFiles/gui.dir/gui_autogen/mocs_compilation.cpp.o.requires
 
 .PHONY : gui/CMakeFiles/gui.dir/requires
@@ -165,7 +257,8 @@ gui/CMakeFiles/gui.dir/clean:
 	cd /home/pmessan/qt-gui/build/gui && $(CMAKE_COMMAND) -P CMakeFiles/gui.dir/cmake_clean.cmake
 .PHONY : gui/CMakeFiles/gui.dir/clean
 
-gui/CMakeFiles/gui.dir/depend:
+gui/CMakeFiles/gui.dir/depend: gui/qrc_qml.cpp
+gui/CMakeFiles/gui.dir/depend: gui/include/gui/moc_mainapplication.cpp
 	cd /home/pmessan/qt-gui/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/pmessan/qt-gui/src /home/pmessan/qt-gui/src/gui /home/pmessan/qt-gui/build /home/pmessan/qt-gui/build/gui /home/pmessan/qt-gui/build/gui/CMakeFiles/gui.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : gui/CMakeFiles/gui.dir/depend
 

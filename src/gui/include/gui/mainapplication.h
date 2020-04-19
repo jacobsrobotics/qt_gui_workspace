@@ -6,7 +6,7 @@
 
 #include <ros/ros.h>
 
-#include <QtQml/QQmlApplicationEngine>
+#include <QQmlApplicationEngine>
 
 
 class MainApplication : public QQmlApplicationEngine {
@@ -24,7 +24,7 @@ class MainApplication : public QQmlApplicationEngine {
 
     //this defines a slot that will be called when the application is idle.
 
-    public:
+    public slots:
 
         void mainLoop();
 

@@ -599,6 +599,87 @@ gui_autogen/mocs_compilation.cpp.s:
 	cd /home/pmessan/qt-gui/build && $(MAKE) -f gui/CMakeFiles/gui.dir/build.make gui/CMakeFiles/gui.dir/gui_autogen/mocs_compilation.cpp.s
 .PHONY : gui_autogen/mocs_compilation.cpp.s
 
+include/gui/moc_mainapplication.o: include/gui/moc_mainapplication.cpp.o
+
+.PHONY : include/gui/moc_mainapplication.o
+
+# target to build an object file
+include/gui/moc_mainapplication.cpp.o:
+	cd /home/pmessan/qt-gui/build && $(MAKE) -f gui/CMakeFiles/gui.dir/build.make gui/CMakeFiles/gui.dir/include/gui/moc_mainapplication.cpp.o
+.PHONY : include/gui/moc_mainapplication.cpp.o
+
+include/gui/moc_mainapplication.i: include/gui/moc_mainapplication.cpp.i
+
+.PHONY : include/gui/moc_mainapplication.i
+
+# target to preprocess a source file
+include/gui/moc_mainapplication.cpp.i:
+	cd /home/pmessan/qt-gui/build && $(MAKE) -f gui/CMakeFiles/gui.dir/build.make gui/CMakeFiles/gui.dir/include/gui/moc_mainapplication.cpp.i
+.PHONY : include/gui/moc_mainapplication.cpp.i
+
+include/gui/moc_mainapplication.s: include/gui/moc_mainapplication.cpp.s
+
+.PHONY : include/gui/moc_mainapplication.s
+
+# target to generate assembly for a file
+include/gui/moc_mainapplication.cpp.s:
+	cd /home/pmessan/qt-gui/build && $(MAKE) -f gui/CMakeFiles/gui.dir/build.make gui/CMakeFiles/gui.dir/include/gui/moc_mainapplication.cpp.s
+.PHONY : include/gui/moc_mainapplication.cpp.s
+
+qrc_qml.o: qrc_qml.cpp.o
+
+.PHONY : qrc_qml.o
+
+# target to build an object file
+qrc_qml.cpp.o:
+	cd /home/pmessan/qt-gui/build && $(MAKE) -f gui/CMakeFiles/gui.dir/build.make gui/CMakeFiles/gui.dir/qrc_qml.cpp.o
+.PHONY : qrc_qml.cpp.o
+
+qrc_qml.i: qrc_qml.cpp.i
+
+.PHONY : qrc_qml.i
+
+# target to preprocess a source file
+qrc_qml.cpp.i:
+	cd /home/pmessan/qt-gui/build && $(MAKE) -f gui/CMakeFiles/gui.dir/build.make gui/CMakeFiles/gui.dir/qrc_qml.cpp.i
+.PHONY : qrc_qml.cpp.i
+
+qrc_qml.s: qrc_qml.cpp.s
+
+.PHONY : qrc_qml.s
+
+# target to generate assembly for a file
+qrc_qml.cpp.s:
+	cd /home/pmessan/qt-gui/build && $(MAKE) -f gui/CMakeFiles/gui.dir/build.make gui/CMakeFiles/gui.dir/qrc_qml.cpp.s
+.PHONY : qrc_qml.cpp.s
+
+src/guiMain.o: src/guiMain.cpp.o
+
+.PHONY : src/guiMain.o
+
+# target to build an object file
+src/guiMain.cpp.o:
+	cd /home/pmessan/qt-gui/build && $(MAKE) -f gui/CMakeFiles/gui.dir/build.make gui/CMakeFiles/gui.dir/src/guiMain.cpp.o
+.PHONY : src/guiMain.cpp.o
+
+src/guiMain.i: src/guiMain.cpp.i
+
+.PHONY : src/guiMain.i
+
+# target to preprocess a source file
+src/guiMain.cpp.i:
+	cd /home/pmessan/qt-gui/build && $(MAKE) -f gui/CMakeFiles/gui.dir/build.make gui/CMakeFiles/gui.dir/src/guiMain.cpp.i
+.PHONY : src/guiMain.cpp.i
+
+src/guiMain.s: src/guiMain.cpp.s
+
+.PHONY : src/guiMain.s
+
+# target to generate assembly for a file
+src/guiMain.cpp.s:
+	cd /home/pmessan/qt-gui/build && $(MAKE) -f gui/CMakeFiles/gui.dir/build.make gui/CMakeFiles/gui.dir/src/guiMain.cpp.s
+.PHONY : src/guiMain.cpp.s
+
 src/mainapplication.o: src/mainapplication.cpp.o
 
 .PHONY : src/mainapplication.o
@@ -669,6 +750,15 @@ help:
 	@echo "... gui_autogen/mocs_compilation.o"
 	@echo "... gui_autogen/mocs_compilation.i"
 	@echo "... gui_autogen/mocs_compilation.s"
+	@echo "... include/gui/moc_mainapplication.o"
+	@echo "... include/gui/moc_mainapplication.i"
+	@echo "... include/gui/moc_mainapplication.s"
+	@echo "... qrc_qml.o"
+	@echo "... qrc_qml.i"
+	@echo "... qrc_qml.s"
+	@echo "... src/guiMain.o"
+	@echo "... src/guiMain.i"
+	@echo "... src/guiMain.s"
 	@echo "... src/mainapplication.o"
 	@echo "... src/mainapplication.i"
 	@echo "... src/mainapplication.s"

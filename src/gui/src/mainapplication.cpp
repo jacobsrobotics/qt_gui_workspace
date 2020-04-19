@@ -1,5 +1,3 @@
-
-
 #include "../include/gui/mainapplication.h"
 
 #include <QTimer>
@@ -15,7 +13,7 @@ void MainApplication::run() {
 
     //this loads the qml file we are about to create
 
-    this->load(QUrl(QString("qrc:/window1.qml")));
+    this->load(QUrl(QStringLiteral("qrc:/window1.qml")));
 
 
     //Setup a timer to get the application's idle loop
@@ -28,9 +26,11 @@ void MainApplication::run() {
 
 }
 
-
 void MainApplication::mainLoop() {
 
     ros::spinOnce();
 
 }
+
+
+//The main thing

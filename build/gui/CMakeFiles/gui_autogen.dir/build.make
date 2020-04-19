@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/pmessan/qt-gui/build
 include gui/CMakeFiles/gui_autogen.dir/progress.make
 
 gui/CMakeFiles/gui_autogen:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/pmessan/qt-gui/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC, UIC and RCC for target gui"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/pmessan/qt-gui/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and RCC for target gui"
 	cd /home/pmessan/qt-gui/build/gui && /usr/bin/cmake -E cmake_autogen /home/pmessan/qt-gui/build/gui/CMakeFiles/gui_autogen.dir Debug
 
 gui_autogen: gui/CMakeFiles/gui_autogen

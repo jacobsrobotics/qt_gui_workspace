@@ -1,3 +1,5 @@
 # Hashes of file build rules.
 c7e098872c9829769398e0e6b1ae456b CMakeFiles/clean_test_results
 333f59d335aca8f9a1d0b8581144a11f gui/CMakeFiles/gui_autogen
+bdb65a74bfa03d8a1a303dd43387a068 gui/include/gui/moc_mainapplication.cpp
+05a4760203061284d97ad54f1c1a297d gui/qrc_qml.cpp

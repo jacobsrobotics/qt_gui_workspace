@@ -1,0 +1,12 @@
+-I/opt/ros/melodic/include
+-I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp
+-I/usr/include
+-I/home/pmessan/qt-gui/src/gui
+-I/home/pmessan/qt-gui/build/gui
+-DROS_BUILD_SHARED_LIBS=1
+-DROS_BUILD_SHARED_LIBS=1
+-DROS_PACKAGE_NAME="gui"
+-DROSCONSOLE_BACKEND_LOG4CXX
+-o
+/home/pmessan/qt-gui/build/gui/include/gui/moc_mainapplication.cpp
+/home/pmessan/qt-gui/src/gui/include/gui/mainapplication.h
