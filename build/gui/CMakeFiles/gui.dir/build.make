@@ -58,6 +58,10 @@ include gui/CMakeFiles/gui.dir/progress.make
 include gui/CMakeFiles/gui.dir/flags.make
 
 gui/qrc_qml.cpp: /home/pmessan/qt-gui/src/gui/resources/window1.qml
+gui/qrc_qml.cpp: /home/pmessan/qt-gui/src/gui/resources/owrroscomponents.h
+gui/qrc_qml.cpp: /home/pmessan/qt-gui/src/gui/resources/rosvideocomponent.h
+gui/qrc_qml.cpp: /home/pmessan/qt-gui/src/gui/resources/src/owrroscomponents.cpp
+gui/qrc_qml.cpp: /home/pmessan/qt-gui/src/gui/resources/src/rosvideocomponent.cpp
 gui/qrc_qml.cpp: /home/pmessan/qt-gui/src/gui/resources/qml.qrc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/pmessan/qt-gui/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating qrc_qml.cpp"
 	cd /home/pmessan/qt-gui/build/gui && /usr/lib/qt5/bin/rcc --name qml --output /home/pmessan/qt-gui/build/gui/qrc_qml.cpp /home/pmessan/qt-gui/src/gui/resources/qml.qrc
@@ -203,6 +207,7 @@ gui_EXTERNAL_OBJECTS =
 /home/pmessan/qt-gui/devel/lib/gui/gui: gui/CMakeFiles/gui.dir/include/gui/moc_mainapplication.cpp.o
 /home/pmessan/qt-gui/devel/lib/gui/gui: gui/CMakeFiles/gui.dir/gui_autogen/mocs_compilation.cpp.o
 /home/pmessan/qt-gui/devel/lib/gui/gui: gui/CMakeFiles/gui.dir/build.make
+/home/pmessan/qt-gui/devel/lib/gui/gui: /home/pmessan/qt-gui/devel/lib/libRosVideoComponents.so
 /home/pmessan/qt-gui/devel/lib/gui/gui: /opt/ros/melodic/lib/libimage_transport.so
 /home/pmessan/qt-gui/devel/lib/gui/gui: /opt/ros/melodic/lib/libmessage_filters.so
 /home/pmessan/qt-gui/devel/lib/gui/gui: /opt/ros/melodic/lib/libclass_loader.so

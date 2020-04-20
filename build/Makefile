@@ -294,7 +294,7 @@ rosgraph_msgs_generate_messages_py: cmake_check_build_system
 
 # fast build rule for target.
 rosgraph_msgs_generate_messages_py/fast:
-	$(MAKE) -f gui/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build.make gui/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build
+	$(MAKE) -f ros_video_components/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build.make ros_video_components/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build
 .PHONY : rosgraph_msgs_generate_messages_py/fast
 
 #=============================================================================
@@ -307,7 +307,7 @@ roscpp_generate_messages_lisp: cmake_check_build_system
 
 # fast build rule for target.
 roscpp_generate_messages_lisp/fast:
-	$(MAKE) -f gui/CMakeFiles/roscpp_generate_messages_lisp.dir/build.make gui/CMakeFiles/roscpp_generate_messages_lisp.dir/build
+	$(MAKE) -f ros_video_components/CMakeFiles/roscpp_generate_messages_lisp.dir/build.make ros_video_components/CMakeFiles/roscpp_generate_messages_lisp.dir/build
 .PHONY : roscpp_generate_messages_lisp/fast
 
 #=============================================================================
@@ -320,7 +320,7 @@ geometry_msgs_generate_messages_cpp: cmake_check_build_system
 
 # fast build rule for target.
 geometry_msgs_generate_messages_cpp/fast:
-	$(MAKE) -f gui/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build.make gui/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build
+	$(MAKE) -f ros_video_components/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build.make ros_video_components/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build
 .PHONY : geometry_msgs_generate_messages_cpp/fast
 
 #=============================================================================
@@ -333,7 +333,7 @@ geometry_msgs_generate_messages_nodejs: cmake_check_build_system
 
 # fast build rule for target.
 geometry_msgs_generate_messages_nodejs/fast:
-	$(MAKE) -f gui/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/build.make gui/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/build
+	$(MAKE) -f ros_video_components/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/build.make ros_video_components/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/build
 .PHONY : geometry_msgs_generate_messages_nodejs/fast
 
 #=============================================================================
@@ -346,7 +346,7 @@ rosgraph_msgs_generate_messages_lisp: cmake_check_build_system
 
 # fast build rule for target.
 rosgraph_msgs_generate_messages_lisp/fast:
-	$(MAKE) -f gui/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build.make gui/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build
+	$(MAKE) -f ros_video_components/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build.make ros_video_components/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build
 .PHONY : rosgraph_msgs_generate_messages_lisp/fast
 
 #=============================================================================
@@ -359,7 +359,7 @@ rosgraph_msgs_generate_messages_eus: cmake_check_build_system
 
 # fast build rule for target.
 rosgraph_msgs_generate_messages_eus/fast:
-	$(MAKE) -f gui/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build.make gui/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build
+	$(MAKE) -f ros_video_components/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build.make ros_video_components/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build
 .PHONY : rosgraph_msgs_generate_messages_eus/fast
 
 #=============================================================================
@@ -372,7 +372,7 @@ std_msgs_generate_messages_cpp: cmake_check_build_system
 
 # fast build rule for target.
 std_msgs_generate_messages_cpp/fast:
-	$(MAKE) -f gui/CMakeFiles/std_msgs_generate_messages_cpp.dir/build.make gui/CMakeFiles/std_msgs_generate_messages_cpp.dir/build
+	$(MAKE) -f ros_video_components/CMakeFiles/std_msgs_generate_messages_cpp.dir/build.make ros_video_components/CMakeFiles/std_msgs_generate_messages_cpp.dir/build
 .PHONY : std_msgs_generate_messages_cpp/fast
 
 #=============================================================================
@@ -385,7 +385,7 @@ roscpp_generate_messages_nodejs: cmake_check_build_system
 
 # fast build rule for target.
 roscpp_generate_messages_nodejs/fast:
-	$(MAKE) -f gui/CMakeFiles/roscpp_generate_messages_nodejs.dir/build.make gui/CMakeFiles/roscpp_generate_messages_nodejs.dir/build
+	$(MAKE) -f ros_video_components/CMakeFiles/roscpp_generate_messages_nodejs.dir/build.make ros_video_components/CMakeFiles/roscpp_generate_messages_nodejs.dir/build
 .PHONY : roscpp_generate_messages_nodejs/fast
 
 #=============================================================================
@@ -398,7 +398,7 @@ std_msgs_generate_messages_eus: cmake_check_build_system
 
 # fast build rule for target.
 std_msgs_generate_messages_eus/fast:
-	$(MAKE) -f gui/CMakeFiles/std_msgs_generate_messages_eus.dir/build.make gui/CMakeFiles/std_msgs_generate_messages_eus.dir/build
+	$(MAKE) -f ros_video_components/CMakeFiles/std_msgs_generate_messages_eus.dir/build.make ros_video_components/CMakeFiles/std_msgs_generate_messages_eus.dir/build
 .PHONY : std_msgs_generate_messages_eus/fast
 
 #=============================================================================
@@ -411,7 +411,7 @@ geometry_msgs_generate_messages_lisp: cmake_check_build_system
 
 # fast build rule for target.
 geometry_msgs_generate_messages_lisp/fast:
-	$(MAKE) -f gui/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build.make gui/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build
+	$(MAKE) -f ros_video_components/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build.make ros_video_components/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build
 .PHONY : geometry_msgs_generate_messages_lisp/fast
 
 #=============================================================================
@@ -424,7 +424,7 @@ roscpp_generate_messages_py: cmake_check_build_system
 
 # fast build rule for target.
 roscpp_generate_messages_py/fast:
-	$(MAKE) -f gui/CMakeFiles/roscpp_generate_messages_py.dir/build.make gui/CMakeFiles/roscpp_generate_messages_py.dir/build
+	$(MAKE) -f ros_video_components/CMakeFiles/roscpp_generate_messages_py.dir/build.make ros_video_components/CMakeFiles/roscpp_generate_messages_py.dir/build
 .PHONY : roscpp_generate_messages_py/fast
 
 #=============================================================================
@@ -437,7 +437,7 @@ std_msgs_generate_messages_lisp: cmake_check_build_system
 
 # fast build rule for target.
 std_msgs_generate_messages_lisp/fast:
-	$(MAKE) -f gui/CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make gui/CMakeFiles/std_msgs_generate_messages_lisp.dir/build
+	$(MAKE) -f ros_video_components/CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make ros_video_components/CMakeFiles/std_msgs_generate_messages_lisp.dir/build
 .PHONY : std_msgs_generate_messages_lisp/fast
 
 #=============================================================================
@@ -450,8 +450,21 @@ rosgraph_msgs_generate_messages_nodejs: cmake_check_build_system
 
 # fast build rule for target.
 rosgraph_msgs_generate_messages_nodejs/fast:
-	$(MAKE) -f gui/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build.make gui/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build
+	$(MAKE) -f ros_video_components/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build.make ros_video_components/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build
 .PHONY : rosgraph_msgs_generate_messages_nodejs/fast
+
+#=============================================================================
+# Target rules for targets named RosVideoComponents
+
+# Build rule for target.
+RosVideoComponents: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 RosVideoComponents
+.PHONY : RosVideoComponents
+
+# fast build rule for target.
+RosVideoComponents/fast:
+	$(MAKE) -f ros_video_components/CMakeFiles/RosVideoComponents.dir/build.make ros_video_components/CMakeFiles/RosVideoComponents.dir/build
+.PHONY : RosVideoComponents/fast
 
 #=============================================================================
 # Target rules for targets named sensor_msgs_generate_messages_eus
@@ -463,7 +476,7 @@ sensor_msgs_generate_messages_eus: cmake_check_build_system
 
 # fast build rule for target.
 sensor_msgs_generate_messages_eus/fast:
-	$(MAKE) -f gui/CMakeFiles/sensor_msgs_generate_messages_eus.dir/build.make gui/CMakeFiles/sensor_msgs_generate_messages_eus.dir/build
+	$(MAKE) -f ros_video_components/CMakeFiles/sensor_msgs_generate_messages_eus.dir/build.make ros_video_components/CMakeFiles/sensor_msgs_generate_messages_eus.dir/build
 .PHONY : sensor_msgs_generate_messages_eus/fast
 
 #=============================================================================
@@ -476,7 +489,7 @@ roscpp_generate_messages_cpp: cmake_check_build_system
 
 # fast build rule for target.
 roscpp_generate_messages_cpp/fast:
-	$(MAKE) -f gui/CMakeFiles/roscpp_generate_messages_cpp.dir/build.make gui/CMakeFiles/roscpp_generate_messages_cpp.dir/build
+	$(MAKE) -f ros_video_components/CMakeFiles/roscpp_generate_messages_cpp.dir/build.make ros_video_components/CMakeFiles/roscpp_generate_messages_cpp.dir/build
 .PHONY : roscpp_generate_messages_cpp/fast
 
 #=============================================================================
@@ -489,7 +502,7 @@ sensor_msgs_generate_messages_lisp: cmake_check_build_system
 
 # fast build rule for target.
 sensor_msgs_generate_messages_lisp/fast:
-	$(MAKE) -f gui/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/build.make gui/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/build
+	$(MAKE) -f ros_video_components/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/build.make ros_video_components/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/build
 .PHONY : sensor_msgs_generate_messages_lisp/fast
 
 #=============================================================================
@@ -502,7 +515,7 @@ sensor_msgs_generate_messages_nodejs: cmake_check_build_system
 
 # fast build rule for target.
 sensor_msgs_generate_messages_nodejs/fast:
-	$(MAKE) -f gui/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/build.make gui/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/build
+	$(MAKE) -f ros_video_components/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/build.make ros_video_components/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/build
 .PHONY : sensor_msgs_generate_messages_nodejs/fast
 
 #=============================================================================
@@ -515,7 +528,7 @@ sensor_msgs_generate_messages_py: cmake_check_build_system
 
 # fast build rule for target.
 sensor_msgs_generate_messages_py/fast:
-	$(MAKE) -f gui/CMakeFiles/sensor_msgs_generate_messages_py.dir/build.make gui/CMakeFiles/sensor_msgs_generate_messages_py.dir/build
+	$(MAKE) -f ros_video_components/CMakeFiles/sensor_msgs_generate_messages_py.dir/build.make ros_video_components/CMakeFiles/sensor_msgs_generate_messages_py.dir/build
 .PHONY : sensor_msgs_generate_messages_py/fast
 
 #=============================================================================
@@ -528,7 +541,7 @@ geometry_msgs_generate_messages_py: cmake_check_build_system
 
 # fast build rule for target.
 geometry_msgs_generate_messages_py/fast:
-	$(MAKE) -f gui/CMakeFiles/geometry_msgs_generate_messages_py.dir/build.make gui/CMakeFiles/geometry_msgs_generate_messages_py.dir/build
+	$(MAKE) -f ros_video_components/CMakeFiles/geometry_msgs_generate_messages_py.dir/build.make ros_video_components/CMakeFiles/geometry_msgs_generate_messages_py.dir/build
 .PHONY : geometry_msgs_generate_messages_py/fast
 
 #=============================================================================
@@ -541,7 +554,7 @@ std_msgs_generate_messages_py: cmake_check_build_system
 
 # fast build rule for target.
 std_msgs_generate_messages_py/fast:
-	$(MAKE) -f gui/CMakeFiles/std_msgs_generate_messages_py.dir/build.make gui/CMakeFiles/std_msgs_generate_messages_py.dir/build
+	$(MAKE) -f ros_video_components/CMakeFiles/std_msgs_generate_messages_py.dir/build.make ros_video_components/CMakeFiles/std_msgs_generate_messages_py.dir/build
 .PHONY : std_msgs_generate_messages_py/fast
 
 #=============================================================================
@@ -554,7 +567,7 @@ sensor_msgs_generate_messages_cpp: cmake_check_build_system
 
 # fast build rule for target.
 sensor_msgs_generate_messages_cpp/fast:
-	$(MAKE) -f gui/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/build.make gui/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/build
+	$(MAKE) -f ros_video_components/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/build.make ros_video_components/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/build
 .PHONY : sensor_msgs_generate_messages_cpp/fast
 
 #=============================================================================
@@ -567,7 +580,7 @@ std_msgs_generate_messages_nodejs: cmake_check_build_system
 
 # fast build rule for target.
 std_msgs_generate_messages_nodejs/fast:
-	$(MAKE) -f gui/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build.make gui/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build
+	$(MAKE) -f ros_video_components/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build.make ros_video_components/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build
 .PHONY : std_msgs_generate_messages_nodejs/fast
 
 #=============================================================================
@@ -580,8 +593,47 @@ geometry_msgs_generate_messages_eus: cmake_check_build_system
 
 # fast build rule for target.
 geometry_msgs_generate_messages_eus/fast:
-	$(MAKE) -f gui/CMakeFiles/geometry_msgs_generate_messages_eus.dir/build.make gui/CMakeFiles/geometry_msgs_generate_messages_eus.dir/build
+	$(MAKE) -f ros_video_components/CMakeFiles/geometry_msgs_generate_messages_eus.dir/build.make ros_video_components/CMakeFiles/geometry_msgs_generate_messages_eus.dir/build
 .PHONY : geometry_msgs_generate_messages_eus/fast
+
+#=============================================================================
+# Target rules for targets named rosgraph_msgs_generate_messages_cpp
+
+# Build rule for target.
+rosgraph_msgs_generate_messages_cpp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 rosgraph_msgs_generate_messages_cpp
+.PHONY : rosgraph_msgs_generate_messages_cpp
+
+# fast build rule for target.
+rosgraph_msgs_generate_messages_cpp/fast:
+	$(MAKE) -f ros_video_components/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build.make ros_video_components/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build
+.PHONY : rosgraph_msgs_generate_messages_cpp/fast
+
+#=============================================================================
+# Target rules for targets named roscpp_generate_messages_eus
+
+# Build rule for target.
+roscpp_generate_messages_eus: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 roscpp_generate_messages_eus
+.PHONY : roscpp_generate_messages_eus
+
+# fast build rule for target.
+roscpp_generate_messages_eus/fast:
+	$(MAKE) -f ros_video_components/CMakeFiles/roscpp_generate_messages_eus.dir/build.make ros_video_components/CMakeFiles/roscpp_generate_messages_eus.dir/build
+.PHONY : roscpp_generate_messages_eus/fast
+
+#=============================================================================
+# Target rules for targets named RosVideoComponents_autogen
+
+# Build rule for target.
+RosVideoComponents_autogen: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 RosVideoComponents_autogen
+.PHONY : RosVideoComponents_autogen
+
+# fast build rule for target.
+RosVideoComponents_autogen/fast:
+	$(MAKE) -f ros_video_components/CMakeFiles/RosVideoComponents_autogen.dir/build.make ros_video_components/CMakeFiles/RosVideoComponents_autogen.dir/build
+.PHONY : RosVideoComponents_autogen/fast
 
 #=============================================================================
 # Target rules for targets named gui
@@ -595,32 +647,6 @@ gui: cmake_check_build_system
 gui/fast:
 	$(MAKE) -f gui/CMakeFiles/gui.dir/build.make gui/CMakeFiles/gui.dir/build
 .PHONY : gui/fast
-
-#=============================================================================
-# Target rules for targets named rosgraph_msgs_generate_messages_cpp
-
-# Build rule for target.
-rosgraph_msgs_generate_messages_cpp: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 rosgraph_msgs_generate_messages_cpp
-.PHONY : rosgraph_msgs_generate_messages_cpp
-
-# fast build rule for target.
-rosgraph_msgs_generate_messages_cpp/fast:
-	$(MAKE) -f gui/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build.make gui/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build
-.PHONY : rosgraph_msgs_generate_messages_cpp/fast
-
-#=============================================================================
-# Target rules for targets named roscpp_generate_messages_eus
-
-# Build rule for target.
-roscpp_generate_messages_eus: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 roscpp_generate_messages_eus
-.PHONY : roscpp_generate_messages_eus
-
-# fast build rule for target.
-roscpp_generate_messages_eus/fast:
-	$(MAKE) -f gui/CMakeFiles/roscpp_generate_messages_eus.dir/build.make gui/CMakeFiles/roscpp_generate_messages_eus.dir/build
-.PHONY : roscpp_generate_messages_eus/fast
 
 #=============================================================================
 # Target rules for targets named gui_autogen
@@ -670,6 +696,7 @@ help:
 	@echo "... roscpp_generate_messages_py"
 	@echo "... std_msgs_generate_messages_lisp"
 	@echo "... rosgraph_msgs_generate_messages_nodejs"
+	@echo "... RosVideoComponents"
 	@echo "... sensor_msgs_generate_messages_eus"
 	@echo "... roscpp_generate_messages_cpp"
 	@echo "... sensor_msgs_generate_messages_lisp"
@@ -680,9 +707,10 @@ help:
 	@echo "... sensor_msgs_generate_messages_cpp"
 	@echo "... std_msgs_generate_messages_nodejs"
 	@echo "... geometry_msgs_generate_messages_eus"
-	@echo "... gui"
 	@echo "... rosgraph_msgs_generate_messages_cpp"
 	@echo "... roscpp_generate_messages_eus"
+	@echo "... RosVideoComponents_autogen"
+	@echo "... gui"
 	@echo "... gui_autogen"
 .PHONY : help
 

@@ -1,3 +1,4 @@
+-I/home/pmessan/qt-gui/src/ros_video_components/include
 -I/opt/ros/melodic/include
 -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp
 -I/usr/include

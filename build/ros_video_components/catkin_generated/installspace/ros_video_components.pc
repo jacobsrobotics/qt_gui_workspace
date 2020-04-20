@@ -1,0 +1,8 @@
+prefix=/home/pmessan/qt-gui/install
+
+Name: ros_video_components
+Description: Description of ros_video_components
+Version: 0.1.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib -lRosVideoComponents
+Requires: qt_build roscpp sensor_msgs image_transport

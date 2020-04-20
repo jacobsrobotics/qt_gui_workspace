@@ -18,7 +18,7 @@ set(AM_QT_RCC_EXECUTABLE "/usr/lib/qt5/bin/rcc")
 # MOC settings
 set(AM_MOC_SKIP "/home/pmessan/qt-gui/build/gui/gui_autogen/mocs_compilation.cpp;/home/pmessan/qt-gui/build/gui/include/gui/moc_mainapplication.cpp;/home/pmessan/qt-gui/build/gui/qrc_qml.cpp;/home/pmessan/qt-gui/src/gui/include/gui/mainapplication.h")
 set(AM_MOC_DEFINITIONS "QT_CORE_LIB;QT_GUI_LIB;QT_NETWORK_LIB;QT_QML_LIB;QT_QUICK_LIB;ROSCONSOLE_BACKEND_LOG4CXX;ROS_BUILD_SHARED_LIBS=1;ROS_PACKAGE_NAME=\"gui\"")
-set(AM_MOC_INCLUDES "/home/pmessan/qt-gui/build/gui;/home/pmessan/qt-gui/src/gui;/home/pmessan/qt-gui/build/gui/gui_autogen/include;/opt/ros/melodic/include;/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp;/usr/include/x86_64-linux-gnu/qt5;/usr/include/x86_64-linux-gnu/qt5/QtQuick;/usr/include/x86_64-linux-gnu/qt5/QtQml;/usr/include/x86_64-linux-gnu/qt5/QtNetwork;/usr/include/x86_64-linux-gnu/qt5/QtCore;/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++;/usr/include/x86_64-linux-gnu/qt5/QtGui;/home/pmessan/qt-gui/src/gui/include;/usr/include")
+set(AM_MOC_INCLUDES "/home/pmessan/qt-gui/build/gui;/home/pmessan/qt-gui/src/gui;/home/pmessan/qt-gui/build/gui/gui_autogen/include;/home/pmessan/qt-gui/src/ros_video_components/include;/opt/ros/melodic/include;/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp;/usr/include/x86_64-linux-gnu/qt5;/usr/include/x86_64-linux-gnu/qt5/QtQuick;/usr/include/x86_64-linux-gnu/qt5/QtQml;/usr/include/x86_64-linux-gnu/qt5/QtNetwork;/usr/include/x86_64-linux-gnu/qt5/QtCore;/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++;/usr/include/x86_64-linux-gnu/qt5/QtGui;/home/pmessan/qt-gui/src/gui/include;/usr/include")
 set(AM_MOC_OPTIONS "")
 set(AM_MOC_RELAXED_MODE "FALSE")
 set(AM_MOC_MACRO_NAMES "Q_OBJECT;Q_GADGET;Q_NAMESPACE")

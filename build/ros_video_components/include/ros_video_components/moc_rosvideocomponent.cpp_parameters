@@ -1,0 +1,13 @@
+-I/home/pmessan/qt-gui/src/ros_video_components/include
+-I/opt/ros/melodic/include
+-I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp
+-I/usr/include
+-I/home/pmessan/qt-gui/src/ros_video_components
+-I/home/pmessan/qt-gui/build/ros_video_components
+-DROS_BUILD_SHARED_LIBS=1
+-DROS_BUILD_SHARED_LIBS=1
+-DROS_PACKAGE_NAME="ros_video_components"
+-DROSCONSOLE_BACKEND_LOG4CXX
+-o
+/home/pmessan/qt-gui/build/ros_video_components/include/ros_video_components/moc_rosvideocomponent.cpp
+/home/pmessan/qt-gui/src/ros_video_components/include/ros_video_components/rosvideocomponent.h

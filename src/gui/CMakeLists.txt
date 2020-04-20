@@ -25,7 +25,7 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 # qt_build provides the qt cmake glue, roscpp the comms for a default talker
 
-find_package(catkin REQUIRED COMPONENTS qt_build roscpp sensor_msgs image_transport)
+find_package(catkin REQUIRED COMPONENTS qt_build roscpp sensor_msgs image_transport ros_video_components)
 
 set(QML_IMPORT_PATH "${QML_IMPORT_PATH};${CATKIN_GLOBAL_LIB_DESTINATION}" "./resources/uiFiles/" )
 

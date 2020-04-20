@@ -131,6 +131,7 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/home/pmessan/qt-gui/build/gtest/cmake_install.cmake")
+  include("/home/pmessan/qt-gui/build/ros_video_components/cmake_install.cmake")
   include("/home/pmessan/qt-gui/build/gui/cmake_install.cmake")
 
 endif()

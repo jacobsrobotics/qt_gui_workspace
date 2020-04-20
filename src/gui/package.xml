@@ -56,6 +56,9 @@
   <build_depend>image_transport</build_depend>
   <build_depend>sensor_msgs</build_depend>
   <build_depend>libqt4-dev</build_depend>
+  <build_depend>ros_video_components</build_depend>
+
+  <exec_depend>ros_video_components</exec_depend>
   <exec_depend>qt_build</exec_depend>
   <exec_depend>image_transport</exec_depend>
   <exec_depend>sensor_msgs</exec_depend>

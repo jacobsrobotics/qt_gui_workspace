@@ -1,5 +1,9 @@
 <RCC>
     <qresource prefix="/">
         <file>window1.qml</file>
+        <file>owrroscomponents.h</file>
+        <file>rosvideocomponent.h</file>
+        <file>src/owrroscomponents.cpp</file>
+        <file>src/rosvideocomponent.cpp</file>
     </qresource>
 </RCC>

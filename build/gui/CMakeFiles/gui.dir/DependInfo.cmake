@@ -29,6 +29,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "gui"
   "/home/pmessan/qt-gui/src/gui"
   "gui/gui_autogen/include"
+  "/home/pmessan/qt-gui/src/ros_video_components/include"
   "/opt/ros/melodic/include"
   "/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"
   "/usr/include/x86_64-linux-gnu/qt5"
@@ -43,6 +44,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
+  "/home/pmessan/qt-gui/build/ros_video_components/CMakeFiles/RosVideoComponents.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.
